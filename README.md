@@ -1,6 +1,11 @@
 
 # echo-scoop
 
+### How to install bucket
+
+```bash
+scoop bucket add echob https://github.com/Mercury863/echob/
+```
 ### Quick Start
 
 <https://github.com/lukesampson/scoop/wiki/Quick-Start>
@@ -19,12 +24,6 @@ Installing Scoop to Custom Directory
 $env:SCOOP='D:\scoop'
 [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-```
-
-### How to install bucket
-
-```bash
-scoop bucket add echo https://github.com/echoiron/echo-scoop
 ```
 
 ### App of installing bucket
